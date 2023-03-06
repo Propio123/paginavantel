@@ -1,0 +1,34 @@
+<div class="container-fluid text-center ">
+    
+</div>
+<div class="card text-center">
+    <div class="card-header">
+      Planes
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Nuestros Planes</h5>
+      <p class="card-text">Somos proveedores del mejor servicio de internet 
+        de la zona Norte del país. Garantizamos la entrega de nuestro Servicio de Banda Ancha, con velocidades que permiten una experiencia de navegación fluida y estable, acorde con las necesidades
+        de cada cliente.</p>
+      <a href="#" class="btn btn-primary">Contrata Aqui!</a>
+    </div>
+    
+  </div>
+<br>
+<br>
+<div class="container">
+    <h3 class="container text-center"></h3>
+    <div class="card-group">
+        <div class="card" *ngFor="let plan of planes let i=index" style="width: 18rem;">
+
+            <h5 class="card-header">{{plan.nombre}}{{ i+1}}</h5>
+            <div class="card-body">
+                <p class="card-text" id="pm">{{plan.megas}} {{plan.valor}}</p>
+                <p class="card-text">{{plan.contrato}}</p>
+                <p class="card-text">{{plan.documentacion}}</p>
+                <a href="#" class="btn btn-primary">Contratar</a>
+            </div>
+        </div>
+
+    </div>
+</div>

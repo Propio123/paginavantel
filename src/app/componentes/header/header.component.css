@@ -1,0 +1,24 @@
+.fa-globe {
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(5, 7, 5);
+}
+
+.fa-whatsapp {
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #00e676;
+}
+
+.fa-facebook {
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #4267b2;
+}
+
+#cabecera {
+    background-color: #EEEEEE;
+}

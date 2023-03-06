@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #060227;
+    position: sticky;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #99AAB4;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+    border-width: 2px;
+}
+
+.btn {
+    background-color: #060227;
+    border-color: white;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #EDCA54;
+}
+.btn_buscar{
+    background-color: #060227;
+    border-color: white;
+    color: white;    
+}
